@@ -254,7 +254,7 @@ body{
 }
     
 .calculator-form-box{
-    width: 496px;
+    /* width: 496px; */
     height: 408px;
 }
 
@@ -276,20 +276,26 @@ body{
 .calculator-form-box{
     display: flex;
     flex-direction: column;
-    width: 496px;
+    /* width: 496px; */
     height: 408px;
     gap: 23px;
 }
 
 .calculator-form-name{
-    width: 490px;
+    width: 510px;
     height: 48px;
     border-radius: 4px;
     border: #111827 3px solid;
+    padding: 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9CA3AF;
 }
 
 .calculator-form-name::placeholder{
-    padding: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -300,7 +306,7 @@ body{
 
 .calculator-form-container{
     height: 48px;
-    width: 496px;
+    /* width: 510px; */
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -308,14 +314,21 @@ body{
 }
 
 .calculator-form-email{
+    padding: 0px 10px;
     height: 48px;
     border-radius: 4px;
     border: #111827 3px solid;
-    width: 236px;
+    width: 231px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9CA3AF;
 }
 
 .calculator-form-email::placeholder{
-    padding: 10px;
+    /* padding: 10px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -325,14 +338,20 @@ body{
 }
 
 .calculator-form-number{
+    padding: 0px 10px;
     height: 48px;
     border-radius: 4px;
     border: #111827 3px solid;
-    width: 236px;
+    width: 231px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9CA3AF;
 }
 
 .calculator-form-number::placeholder{
-    padding: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -353,7 +372,7 @@ body{
 }
 .calculator-button-box{
     border-radius: 4px;
-    width: 496px;
+    width: 536px;
     height: 44px;
     background-color: #8B5CF6;
     display: flex;
@@ -662,7 +681,7 @@ body{
     height: 150px;
     border-radius: 4px;
     border: #111827 3px solid;
-    width: 470px;
+    width: 510px;
     display: flex;
     justify-content: start;
     resize: none;
@@ -675,7 +694,6 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #9CA3AF;
-    overflow: hidden;
 }
 
 .questions-form-box{
